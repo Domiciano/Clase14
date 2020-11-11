@@ -16,7 +16,7 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        signoutBtn = findViewById(R.id.signoutBtn);
+        signoutBtn = findViewById(R.id.signupBtn);
         signoutBtn.setOnClickListener(this::signout);
     }
 

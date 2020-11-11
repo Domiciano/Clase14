@@ -25,8 +25,8 @@ public class SignupActivity extends AppCompatActivity {
         emailWrapper = findViewById(R.id.emailWrapper);
         passwordWrapper = findViewById(R.id.passwordWrapper);
         repasswordWrapper = findViewById(R.id.repasswordWrapper);
-        signupBtn = findViewById(R.id.signoutBtn);
-        closeBtn = findViewById(R.id.signoutBtn);
+        signupBtn = findViewById(R.id.signupBtn);
+        closeBtn = findViewById(R.id.closeBtn);
 
         signupBtn.setOnClickListener(this::signUp);
         closeBtn.setOnClickListener(this::closeActivity);
